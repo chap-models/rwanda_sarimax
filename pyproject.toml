@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Rwanda SARIMAX forecasting model for CHAP"
 requires-python = ">=3.11"
 dependencies = [
-    "pandas<2.1.0",
+    "pandas>=2.1.0,<3.0",
     "statsmodels",
     "joblib",
 ]
