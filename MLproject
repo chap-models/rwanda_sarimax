@@ -1,9 +1,6 @@
 name: rwanda_sarimax
 
-#docker_env:
-#  image: ghcr.io/dhis2-chap/python_base_image:master
-
-python_env: pyenv.yaml
+uv_env: pyproject.toml
 
 meta_data:
   author: Valens Rwema
