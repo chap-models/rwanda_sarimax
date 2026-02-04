@@ -13,7 +13,7 @@ def train_for_district(district_df):
     
 
     # Handle missing values if any (forward fill as an example)
-    train_exog = train_exog.fillna(method='ffill')
+    train_exog = train_exog.ffill()
 
     my_order = (0, 1, 0)
     my_seasonal_order = (1, 0, 1, 12)
